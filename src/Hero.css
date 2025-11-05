@@ -1,0 +1,16 @@
+.hero {
+  position: relative;
+  height: 300px;
+}
+
+
+h2 {
+  margin: 0px;
+}
+
+.hero img {
+  position: absolute;
+  width: 2400px;
+  height: 100%;
+  transform: translateX(-15%);
+}
