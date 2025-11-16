@@ -1,0 +1,114 @@
+.featureBox img {
+    width: 320px;
+}
+
+.featureBox p {
+    margin: 0;
+    padding: 0;
+    min-height: 100px;
+}
+
+.featureBox ul {
+    padding: 0;
+    margin: 0;
+}
+
+.featureBox li {
+    margin-bottom: 10px;
+}
+
+.featureBox li::marker {
+    color: #008ec1;
+}
+
+.featureBox {
+    height: 100%;
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features {
+    display: flex;
+    max-width: 1080px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.featuresContents {
+    width: calc(100%/3);
+    height: 100%;
+}
+
+.featuresHeading {
+    display: flex;
+    min-width: 140px;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+    color: #8DCFE4;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.featuresDetailbox {
+    display: flex;
+    justify-content: center;
+}
+
+.featuresDetail {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    align-items: center;
+    gap: 10px;
+    background: #fff;
+}
+
+.fTitle {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.fProblem {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.fProblemcta {
+    display: flex;
+    width: 100%;
+    max-width: 200px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #008EC1;    
+    color: #008ec1;
+    font-weight: bold;
+}
+
+
+.fdLinkimg img {
+    width:16px;
+    height: 16px;
+}
+
+.fProblemlist {
+
+}
+
+
+
+
+
+
+
+
+

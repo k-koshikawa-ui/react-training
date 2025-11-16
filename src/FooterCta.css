@@ -1,0 +1,90 @@
+.footerCta {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #14b2dd 0%, #008ec1 100%);
+    padding: 80px 0 ;
+    gap: 10px;
+}
+
+.footerCta h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.fcListbox {
+    display: flex;
+    justify-content: center;
+}
+
+.fcList {
+    display: grid;
+    width: 1080px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.fcContents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.fcText {
+    text-align: center;
+}
+
+.fcButtongradient {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(90deg, #F48171 0%, #E5533E 100%) 0% 0% no-repeat padding-box;
+    font-weight: bold;
+}
+
+.fcButtongradient::after {
+    content: "";
+    width: 8px;
+    height: 15px;
+    background-image: url(/public/arrow_white.svg)
+}
+
+.fcButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.fcButton::after {
+    content: "";
+    width: 8px;
+    height: 15px;
+    background-image: url(/public/arrow_white.svg)
+}
+
+.fcTell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+}
+
+.fcTell span {
+    font-weight: bold;
+}
+
+.fcTell img {
+    max-width: 350px;
+}

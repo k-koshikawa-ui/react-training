@@ -1,0 +1,66 @@
+.status {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100px;
+  margin: 20px 0;
+  background-color: #fff;
+}
+
+.statusList {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.statusItem {
+  display: flex;
+  gap: 5px;
+}
+
+.statusItemcontent {
+  position: relative;
+  display: flex;
+  align-items: end;
+  font-weight: bold;
+}
+
+.statusItemcontent span {
+  font-size: 20px;
+  color: #008ec1;
+}
+
+.statusItemcontent span.strong {
+  font-size: 40px;
+  color: #008ec1;
+}
+
+.statusNoteref {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.statusItem::before {
+  content: "";
+  width: 26px;
+  height: 72px;
+  background-image: url(/public/download.svg);
+}
+
+.statusItem::after {
+  content: "";
+  width: 26px;
+  height: 72px;
+  background-image: url(/public/download-1.svg);
+}
+
+.statusItemtext {
+  line-height: 1.2em;
+}
+
+.statusNotes {
+  text-align: center;
+  font-size: 0.8em;
+  color: #666;
+}

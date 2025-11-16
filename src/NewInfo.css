@@ -1,0 +1,73 @@
+.newInfo {
+    display: flex;
+    flex-direction: column;
+    background: #edfbfd;
+    padding: 80px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.niListbox {
+    display: flex;
+    justify-content: center;
+}
+
+.niList {
+    width: 1080px;
+    gap: 10px;
+    padding: 10px 0;
+    background: #fff;
+}
+
+.niListbox {
+    margin-top: 4em;
+}
+
+.niDetail {
+    padding: 10px 20px;
+}
+
+.niDetaillist {
+    display: flex;
+    padding: 10px 0;
+    gap: 10px;
+    border-bottom: 2px solid #edfbfd;
+}
+
+.niDate {
+    color: #008EC1;
+}
+
+.niCta {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.niButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 520px;
+    min-height: 70px;
+    color: #fff;
+    border-radius: 3px;
+    background: linear-gradient(to right, #14b2dd 0%, #008ec1 100%);
+}
+
+.niButton::after {
+    content: "";
+    width: 8px;
+    height: 14px;
+    background-image: url(/public/arrow_white.svg);
+}
+
+
+
+
+

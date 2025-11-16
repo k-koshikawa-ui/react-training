@@ -1,0 +1,51 @@
+.FooterSitemap {
+    display: flex;
+    flex-direction: column;
+    background: #3E484D;
+    padding: 80px 0 ;
+    gap: 10px;
+}
+
+.fsListbox {
+    display: flex;
+    justify-content: center;
+}
+
+.fsList {
+    display: flex;
+    justify-content: center;
+    width: 1080px;
+}
+
+.fsContents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.fsContents ul {
+    display: flex;
+    gap: 25px;
+}
+
+.fsContents li {
+    list-style-type: none;
+    color: #fff;
+}
+
+.fsCopyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #9EA3A5;
+    gap: 10px;
+}
+
+.fsCopyright span {
+    font-weight: bold;
+}
+
+.fsCopyright img {
+    max-width: 350px;
+}
